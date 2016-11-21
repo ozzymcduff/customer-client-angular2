@@ -3,6 +3,9 @@ logs
 *.log
 npm-debug.log*
 
+# OS X files
+.DS_Store
+
 # Runtime data
 pids
 *.pid
@@ -35,3 +38,18 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+/tools/**/*.js
+dist
+dev
+docs
+lib
+test
+tmp
+
+gulpfile.js
+gulpfile.js.map
+src/client/app/shared/config/env.config.js
+src/client/app/shared/config/env.config.js.map
+
+
